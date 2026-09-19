@@ -1,0 +1,600 @@
+*{
+    padding:0px ;
+    margin: 0px;
+}
+
+body{
+    min-height: 100vh;
+    background: rgb(196, 88, 88);
+}
+
+.toolbar{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+    background-color: black;
+    color: red;
+    animation: reverse;
+}
+
+.logo-img{
+    display: flex;
+    align-content: center;
+}
+
+.logo-img img{
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.logo{
+    text-align: center;
+}
+
+.menu button{
+    background: none;
+    border: none;
+    outline: none;
+    color: red;
+    font-size: 16px;
+}
+
+.menu :hover{
+    background: red;
+    color: black;
+    cursor: pointer;
+}
+
+.menu{
+    margin-left: auto;
+}
+
+.pages{
+    display: none;
+}
+
+.pages.show{
+    display: block;
+}
+
+.headings{
+   padding-top: 130px;
+    text-align: center;
+    color: red;
+}
+
+.main-btn{
+     padding-top: 30%;
+}
+
+.main-btn :hover{
+    background: red;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+
+.Meenu-btn{
+    width: 120px;
+    background: black;
+    color: white;
+    margin-bottom: auto;
+    margin-left: 40%;
+    outline: none;
+    border: none;
+}
+
+.work{
+    width: 180px;
+    height: 20px;
+    background: black;
+    color: white;
+    outline: none;
+    border: none;
+    margin-bottom: auto;
+    margin-right: 40%;
+
+}
+
+.main{
+    min-height: 30vh;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.925),
+            rgba(224, 15, 15, 0.719) ),
+        url("images/background.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+.icon{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 270px;
+    height: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 20px rgba(255, 0, 0, 0.459);
+}
+
+.icon input{
+    background: none;
+    outline:none;
+    border: none;
+    font: 12px;
+    color: white;
+}
+
+
+ 
+.icon p{
+    margin-left: 10px;
+}
+
+.btn button{
+    width: 160px;
+    height: 30px;
+    background-color: red;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.forgot{
+    display: none;
+}
+
+.forgot.show{
+    display: inline;
+    margin-left:30%;
+}
+
+.Forms{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    background: rgba(255, 0, 0, 0.836);
+    border-radius: 20px;
+    background-size: cover;
+}
+
+.Crea-New-Account{
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.login h1, label ,a ,p{
+    text-decoration: none;
+    color: red;
+}
+
+.forgot label, p{
+    color: red;
+}
+
+.Crea-New-Account label ,h1 ,a{
+    color: red;
+}
+
+.forgot .show{
+    display: block;
+}
+
+.Crea-New-Account{
+    background: black;
+    /* padding: 20px; */
+    padding-top: 60px;
+    padding-bottom: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+}
+
+.forgot {
+    background: black;
+    /* padding: 20px; */
+    padding-top: 60px;
+    padding-bottom: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+}
+
+.Login{
+    background: black;
+    /* padding: 20px; */
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+}
+
+@media (min-width: 1920px) {
+    .headings {
+        padding-top: 150px;
+    }
+
+    .headings h1 {
+        font-size: 42px;
+    }
+
+    .headings p {
+        font-size: 18px;
+    }
+
+    .main-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding-top: 15%;
+    }
+
+    .Forms {
+        justify-content: center;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 1559px) {
+    .headings {
+        padding-top: 100px;
+    }
+
+    .main-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-top: 20%;
+    }
+
+    .Forms {
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .toolbar {
+        gap: 15px;
+    }
+
+    .logo h1 {
+        font-size: 24px;
+    }
+
+    .logo p {
+        font-size: 13px;
+    }
+
+    .headings {
+        padding-top: 90px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .headings h1 {
+        font-size: 32px;
+    }
+
+    .headings p {
+        font-size: 15px;
+    }
+
+    .main-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-top: 15%;
+    }
+
+    .Forms {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .toolbar {
+        flex-wrap: wrap;
+    }
+
+    .logo-img img {
+        width: 50px;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+    }
+
+    .logo p {
+        font-size: 11px;
+    }
+
+    .pages {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pages a {
+        margin: 5px;
+    }
+
+    .headings {
+        padding-top: 70px;
+    }
+
+    .headings h1 {
+        font-size: 28px;
+    }
+
+    .headings p {
+        font-size: 14px;
+    }
+
+    .main-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding-top: 15%;
+    }
+
+    .Forms {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .Login,
+    .forgot,
+    .Crea-New-Account {
+        margin-left: 0;
+        margin-right: 0;
+        width: 80%;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 500px) {
+    .toolbar {
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .logo {
+        flex: 1;
+    }
+
+    .logo h1 {
+        font-size: 17px;
+    }
+
+    .logo p {
+        font-size: 9px;
+    }
+
+    .logo-img img {
+        width: 45px;
+    }
+
+    .menu button {
+        font-size: 14px;
+    }
+
+    .headings {
+        padding-top: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .headings h1 {
+        font-size: 24px;
+    }
+
+    .headings p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .main-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding-top: 15%;
+    }
+
+    .work,
+    .Meenu-btn {
+        width: 140px;
+    }
+
+    .icon {
+        width: 100%;
+    }
+
+    .Login,
+    .forgot,
+    .Crea-New-Account {
+        width: 90%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .Login {
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 400px) {
+    .toolbar {
+        padding: 8px;
+    }
+
+    .logo h1 {
+        font-size: 15px;
+    }
+
+    .logo p {
+        font-size: 8px;
+    }
+
+    .logo-img img {
+        width: 40px;
+    }
+
+    .headings {
+        padding-top: 50px;
+    }
+
+    .headings h1 {
+        font-size: 21px;
+    }
+
+    .headings p {
+        font-size: 12px;
+    }
+
+    .main-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        padding-top: 12%;
+    }
+
+    .work,
+    .Meenu-btn {
+        width: 130px;
+    }
+
+    .Forms {
+        padding: 10px 0;
+    }
+
+    .Login,
+    .forgot,
+    .Crea-New-Account {
+        width: 94%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .icon {
+        width: 100%;
+    }
+
+    .icon input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .logo h1 {
+        font-size: 13px;
+    }
+
+    .logo p {
+        font-size: 7px;
+    }
+
+    .logo-img img {
+        width: 35px;
+    }
+
+    .menu button {
+        font-size: 12px;
+    }
+
+    .headings h1 {
+        font-size: 18px;
+    }
+
+    .headings p {
+        font-size: 11px;
+    }
+
+    .main-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding-top: 12%;
+    }
+
+    .work,
+    .Meenu-btn {
+        width: 115px;
+    }
+
+    .Login,
+    .forgot,
+    .Crea-New-Account {
+        width: 96%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (max-width: 240px) {
+    .toolbar {
+        gap: 5px;
+    }
+
+    .logo h1 {
+        font-size: 11px;
+    }
+
+    .logo p {
+        font-size: 6px;
+    }
+
+    .logo-img img {
+        width: 30px;
+    }
+
+    .menu button {
+        font-size: 10px;
+    }
+
+    .headings h1 {
+        font-size: 15px;
+    }
+
+    .headings p {
+        font-size: 9px;
+    }
+
+    .main-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding-top: 10%;
+    }
+
+    .work,
+    .Meenu-btn {
+        width: 100px;
+    }
+
+    .Login,
+    .forgot,
+    .Crea-New-Account {
+        width: 98%;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}

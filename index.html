@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Golide Technologies</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <menu class="toolbar">
+      <div class="logo">
+        <h1>Golide Technologies</h1>
+        <p><strong>Innovate . Connect . Grow</strong></p>
+      </div>
+
+      <div class="logo-img">
+        <img src="images/jpeg" alt="Golide Technologies Logo" />
+      </div>
+
+      <div class="menu">
+        <button id="menu" type="button">
+          Menu <i class="ri-arrow-drop-down-line"></i>
+        </button>
+      </div>
+
+      <div id="pages"  class="pages">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </div>
+    </menu>
+
+    <br /><br />
+
+    <main class="main">
+       <div class="headings">
+        <h1>Welcome to Golide Technologies</h1>
+
+        <p>
+          It gives you room to grow beyond graphic design and front-end
+          development into IT support, networking, software, data, and other
+          technology services.
+        </p>
+        <hr>
+        <br>
+
+        <div class="main-btn">
+          <button id="work" class="work">View our work</button>
+          <button id="Meenu" class="Meenu-btn"><a href="#pages">Menu</a></button>
+        </div>
+      </div>
+      <br /><br />
+    </main>
+
+    <section>
+       <div class="Forms">
+        <div class="Login">
+          <h1>Login</h1>
+
+          <form action="#" method="post" class="form">
+            <label for="login-name">Full Names</label>
+
+            <div class="icon">
+              <p><i class="ri-user-fill"></i></p>
+              <input
+                type="text"
+                id="login-name"
+                name="username"
+                placeholder="Username/Email"
+                required
+              />
+            </div>
+
+            <br />
+
+            <label for="login-password">Password</label>
+
+            <div class="icon">
+              <p><i class="ri-lock-fill"></i></p>
+              <input
+                type="password"
+                id="login-password"
+                name="password"
+                placeholder="*******"
+                required
+              />
+            </div>
+
+            <br />
+
+            <div class="btn">
+              <button id="ok" type="submit">Submit</button>
+              <a href="#fogort" id="password">Forgort Password?</a>
+            </div>
+          </form>
+        </div>
+        <br />
+
+        <div class="forgot" id="forgot">
+          <form action="#" method="post" class="form">
+            <label for="new-password"> Create New Password </label>
+
+            <div class="icon">
+              <p><i class="ri-lock-fill"></i></p>
+              <input
+                type="password"
+                id="new-password"
+                name="new-password"
+                placeholder="*******"
+                required
+              />
+            </div>
+
+            <br />
+
+            <label for="confirm-password"> Confirm Password </label>
+
+            <div class="icon">
+              <p><i class="ri-lock-fill"></i></p>
+              <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+                placeholder="*******"
+                required
+              />
+            </div>
+
+            <br />
+
+            <div class="btn">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+        <br />
+
+        <div class="Crea-New-Account">
+          <h1>Create New Account</h1>
+
+          <form action="#" method="post" class="form">
+            <label for="register-name"> Full Names </label>
+
+            <div class="icon">
+              <p><i class="ri-user-fill"></i></p>
+              <input
+                type="text"
+                id="register-name"
+                name="fullname"
+                placeholder="Enter Your Name"
+                required
+              />
+            </div>
+
+            <br />
+
+            <label for="register-email"> Email </label>
+            <div class="icon">
+              <p><i class="ri-mail-fill"></i></p>
+              <input
+                type="email"
+                id="register-email"
+                name="email"
+                placeholder="steve@gmail.com"
+                required
+              />
+            </div>
+
+            <br />
+
+            <label for="register-number"> Phone Number </label>
+
+            <div class="icon">
+              <p><i class="ri-phone-fill"></i></p>
+              <input
+                type="tel"
+                id="register-number"
+                name="phone"
+                placeholder="098 876 5670"
+                required
+              />
+            </div>
+
+            <br />
+
+            <label for="register-password"> Password </label>
+
+            <div class="icon">
+              <p><i class="ri-lock-fill"></i></p>
+              <input
+                type="password"
+                id="register-password"
+                name="password"
+                placeholder="*******"
+                required
+              />
+            </div>
+
+            <br />
+
+            <div class="btn">
+              <button type="submit">Create Account</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
