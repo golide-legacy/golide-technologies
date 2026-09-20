@@ -12,7 +12,7 @@ password.addEventListener("click", function(){
 
 const action =document.getElementById("work");
 action.addEventListener("click", function(){
-    alert("I dont have work to show its pratical project")
+    alert("I dont have work to show its pratical project, what's on your mind? lets work together!")
 })
 
 const display =document.getElementById("Meenu");
