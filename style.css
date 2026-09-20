@@ -159,11 +159,15 @@ body {
 .btn button {
     width: 160px;
     height: 30px;
-    background-color: red;
+    background-color: black;
     color: white;
     border: none;
     outline: none;
     border-radius: 20px;
+}
+
+.bttn{
+    background-color: black;
 }
 
 .Forms {
@@ -185,6 +189,7 @@ body {
     padding: 30px 15px;
     background: red;
     border-radius: 20px;
+    
 }
 
 .forgot {
@@ -222,6 +227,18 @@ body {
 .Crea-New-Account a {
     text-decoration: none;
 }
+
+.form input {
+  color: #000000;
+  font-weight: bold;
+}
+
+.form input::placeholder {
+  color: #000000;
+  font-weight: bold;
+  
+}
+
 
 @media (min-width: 1920px) {
     .headings {
